@@ -112,7 +112,6 @@ input:focus {
 .questions {
 
     display: flex;
-    flex: row;
     width: 100%;
     margin-left: 1px;
     margin-bottom: 16px;
