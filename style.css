@@ -32,7 +32,7 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: 0;
     color: orangered;
 }
 
@@ -56,8 +56,8 @@ a:hover{
 .data {
     display: inline-block;
     margin-left: 40px;
-    margin-top: none;
-    padding-top: none;
+    margin-top: 0;
+    padding-top: 0;
     height: 16px
 }
 .formacao {
@@ -90,9 +90,9 @@ a:hover{
     justify-content: center;
     width: 60%;
     border-radius: 6px;
-    margin: none;
-    padding-right: none;
-    border: none;
+    margin: 0;
+    padding-right: 0;
+    border: 0;
 }
 
 input:focus {
@@ -124,11 +124,11 @@ input:focus {
 }
 #submitButton{
     background-color: orangered; 
-    border: none;
+    border: 0;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: 0;
     display: flex;
     font-size: 16px;
     margin-bottom: 16px;
